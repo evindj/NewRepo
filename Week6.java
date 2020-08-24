@@ -75,7 +75,7 @@ class MountainBike extends Bicycle {
 class Week6 {
     public static void main(String[] args) {
         int i = 20;
-        Bicycle slow = new Bicycle(10,10);
+        Bicycle slow = new Bicycle(10,10);// instantiate a bicycle
         slow.applyBrake(2);
         // System.out.println( "Bicyle: " + slow);// slow.toString();
         MountainBike bike = new MountainBike(10, 10, 23);
